@@ -3,11 +3,10 @@ channels:
     - conda-forge
 dependencies:
     - python=3.8
-    - pylsl=1.15.0
-    - psychopy=2021.2.3
+    - pylsl
+    - psychopy
     - scipy
     - numpy
     - scikit-learn
-    - pyriemann
     - pickle
     - pandas

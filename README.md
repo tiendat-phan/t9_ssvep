@@ -22,17 +22,23 @@ It was developped in the [Human-Factors department](https://personnel.isae-supae
 
 ## Installation
 
+Clone the repo:
+
+```bash
+git clone https://github.com/ludovicdmt/t9_ssvep
+cd ${INSTALL_PATH}
+```
+
 Install conda dependencies and the project with
 
 ```bash
 conda env create -f environment.yml
 ```
 
-Clone repo
-
+The `pyRiemann` package has to be installed separately using `pip`:
 ```bash
-git clone https://github.com/ludovicdmt/t9_ssvep
-cd ${INSTALL_PATH}
+conda activate psychopy
+pip install pyriemann
 ```
 
 If the dependencies in `environment.yml` change, update dependencies with
